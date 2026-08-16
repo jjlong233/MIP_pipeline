@@ -21,8 +21,7 @@ Install with e.g.:  conda install -c bioconda pandaseq fastp bwa samtools bcftoo
 
 Primer file format (tab-separated, no header):
     <locus_name>\t<primer_L>\t<primer_R>
-Both primers are written as ordered (5'->3'). primer_L is matched verbatim;
-primer_R is reverse-complemented internally to match the forward/merged strand.
+Both primers are written as ordered (5'->3'). 
 
 Author: Junlong Jiang
 """
