@@ -10,10 +10,10 @@ A 48-probe molecular inversion probe (MIP) panel and an end-to-end pipeline that
 
 ## Contents
 
-"MIP_genotyping_pipeline.py": Raw FASTQ → multi-sample VCF. Merging, per-locus demultiplexing, UMI consensus, alignment, joint variant calling.
-"concordance_metrics.py": Benchmarks MIP genotypes against a whole-genome resequencing call set: concordance, sensitivity and PPV.
-"run_popstructure.sh": Filtering, LD pruning, PCA and ADMIXTURE from an on-target VCF.
-"population_analysis_plot.py": Publication figure: PCA, admixture bar plots and cross-validation error.
+- `MIP_genotyping_pipeline.py`: Raw FASTQ → multi-sample VCF. Merging, per-locus demultiplexing, UMI consensus, alignment, joint variant calling.
+- `concordance_metrics.py`: Benchmarks MIP genotypes against a whole-genome resequencing call set: concordance, sensitivity and PPV.
+- `run_popstructure.sh`: Filtering, LD pruning, PCA and ADMIXTURE from an on-target VCF.
+- `population_analysis_plot.py`: Publication figure: PCA, admixture bar plots and cross-validation error.
 
 ---
 
